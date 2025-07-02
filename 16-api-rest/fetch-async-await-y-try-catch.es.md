@@ -52,7 +52,7 @@ async function obtenerUsuario() {
 | ✅ Ideal para lógica compleja | Si haces múltiples llamadas `fetch`, es más limpio y ordenado          |
 
 
-### ¿Entonces se debe evitar `.then()`?
+#### ¿Entonces se debe evitar `.then()`?
 
 No. `.then()` sigue siendo **válido y útil**, sobre todo para scripts simples o cuando no puedes usar `async/await`.  Pero a medida que el código crece, **`async/await` con `try...catch` se vuelve la forma recomendada**.
 
